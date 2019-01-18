@@ -25,7 +25,6 @@ a:visited{
 #navbar a:hover{
     color: forestgreen;
 }
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +35,7 @@ a:visited{
     grid-template-rows: auto;
     justify-items: center;
 }
-.item{
+.item {
     flex: 1 0 200px;
     box-sizing: border-box;
     padding: 10px;
@@ -48,22 +47,21 @@ a:visited{
     background: white;
     border: 10px solid midnightblue;
 }
-
 p{
     position: relative;
-    text-align: left;
-    bottom: -200px;
+    text-align: center;
+    bottom: 0px;
     left: 20px;
     width: 100%;
     font-size: 15px;
 }
 #bold p{
     position: relative;
-    text-align: left;
-    bottom: -180px;
+    text-align: center;
+    bottom: 15px;
     left: 20px;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* Navbar */
